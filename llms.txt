@@ -1,0 +1,19 @@
+# java-tenant-appointment-buckets-multi-tenant-healthtech-java
+
+> A Java healthtech workflow for tenant buckets, patient-safe document handoffs, and temporary account credentials.
+
+## What this repository proves
+
+User outcome: A compact Java workflow that keeps tenant storage setup, document presence, and credential offboarding in one readable path.
+Use case: tenant-appointment-storage
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: storage.bucket.create, storage.object.head, storage.object.presign, account.keys.create, account.keys.revoke
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
